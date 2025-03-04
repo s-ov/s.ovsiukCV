@@ -63,11 +63,6 @@ nav ul {
   margin: 0;
 }
 
-nav ul il a span {
-  padding: 2px;
-  background-color: #2d77e6;
-}
-
 .image {
   background-image: url('../images/and_chr512.png');
   width: 60px;
@@ -80,6 +75,8 @@ a.nav-link {
   text-decoration: none;
   font-size: 1.4em;
   margin-right: 1.5em;
+  font-weight: bold;
+  background-color: #2d77e6;
 }
 li a.nav-link:hover {
   color: var(--clr-active);
