@@ -76,7 +76,6 @@ a.nav-link {
   font-size: 1.4em;
   margin-right: 1.5em;
   font-weight: bold;
-  background-color: #2d77e6;
 }
 li a.nav-link:hover {
   color: var(--clr-active);
