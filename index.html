@@ -15,8 +15,42 @@
 </head>
 <body>
   <div id="matrix"></div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary m-2 rounded fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Serhii Ovsiuk</a>
   
-  <nav class="navbar navbar-dark bg-primary m-2 rounded fixed-top">
+      <!-- Toggle Button for Mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a id="menu_home" href="#home" class="nav-link">HOME</a></li>
+          <li class="nav-item"><a id="menu_about" href="#about" class="nav-link">ABOUT</a></li>
+          <li class="nav-item"><a id="menu_skills" href="#skills" class="nav-link">SKILLS</a></li>
+          <li class="nav-item"><a id="menu_portfolio" href="#portfolio" class="nav-link">PORTFOLIO</a></li>
+          
+          <li class="nav-item">
+            <button id="btn-en" onclick="changeLanguage('en')" class="btn btn-light rounded-circle">
+              🇬🇧
+            </button>
+          </li>
+          <li class="nav-item">
+            <button id="btn-uk" onclick="changeLanguage('uk')" class="btn btn-light rounded-circle">
+              🇺🇦
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <!-- nav class="navbar navbar-dark bg-primary m-2 rounded fixed-top">
     <ul>
       <li>
         <svg>
@@ -30,17 +64,18 @@
       <li><a id="menu_about" href="#about" class="nav-link">ABOUT</a></li>
       <li><a id="menu_skills" href="#skills" class="nav-link">SKILLS</a></li>
       <li><a id="menu_portfolio" href="#portfolio" class="nav-link">PORTFOLIO</a></li>
-      <li>
+      <li class="nav-link>
         <button id="btn-en" onclick="changeLanguage('en')" class="btn rounded-circle">
           🇬🇧
         </button>
-      
+      </li>
+      <li class="nav-link>
         <button id="btn-uk" onclick="changeLanguage('uk')" class="btn rounded-circle">
           🇺🇦
         </button>
       </li>
     </ul>
-  </nav>
+  </nav -->
 
   <div id="content"> 
     <!-- ===================== GREETING ======================= -->
